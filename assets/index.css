@@ -5,13 +5,51 @@
     background-color: rgb(74, 121, 248);
 }
 
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    background-color: #fff;
+}
+
+.img{
+    background-color: transparent;
+}
+
+.text{
+    background-color: #000;
+}
+
+.perf{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+}
+
+.text-2, span{
+    font-size: 1.4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.text-2{
+    color: rgb(20, 20, 20);
+}
+
+span{
+    color: rgb(20, 20, 20);
+}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    margin-top: 10rem;
+    margin-top: 8rem;
 }
 
 .header{
